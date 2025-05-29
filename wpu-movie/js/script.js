@@ -1,5 +1,6 @@
-$('#search-button').on('click', function() {
-    $('#movie-list').html('');
+function searchMovies() {
+        $('#movie-list').html('');
+    
     $.ajax({
         url: 'http://omdbapi.com',
         type: 'GET',
@@ -41,4 +42,16 @@ $('#search-button').on('click', function() {
     });
 
 
+}
+
+$('#search-button').on('click', function() {
+    searchMovies();
+
 });
+
+$('#search-input').on('keyup', function(e) {
+    if (e.keyCode === 13) {
+        searchMovies();
+    }
+
+})
