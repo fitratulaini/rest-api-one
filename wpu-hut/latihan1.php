@@ -47,12 +47,12 @@ $menu = $menu['menu'];
         <div class="row">
             <?php foreach ($menu as $row) : ?>
             <div class="col-md-4">
-                <div class="card">
-                    <img src="img/menu/american-favourite.jpg" class="card-img-top">
+                <div class="card mb-3">
+                    <img src="img/menu/<?= $row["gambar"]; ?>" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="card-title">American favourite</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <h5 class="card-title">Rp. 60.000,-</h5>
+                            <h5 class="card-title"><?= $row["nama"]; ?>"</h5>
+                            <p class="card-text"><?= $row["deskripsi"]; ?>" </p>
+                            <h5 class="card-title">Rp.<?= $row["harga"]; ?>" </h5>
                             <a href="#" class="btn btn-primary">Pesan Sekarang</a>
                         </div>
                     </div>
