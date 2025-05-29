@@ -1,0 +1,32 @@
+[
+    { 
+        "nama" : "fitratul aini",
+        "nim": 2217020008,
+        "jurusan": "sistem informasi",
+        "hobby" : [
+            "mendengar musik", 
+            "scroll sosmed"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "budi",
+            "pembimbing2" : "joko"
+        }
+
+    },
+
+    { 
+        "nama" : "fitratul aini",
+        "nim": 2217020008,
+        "jurusan": "sistem informasi",
+        "hobby" : [
+            "mendengar musik", 
+            "scroll sosmed"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "budi",
+            "pembimbing2" : "joko"
+        }
+
+    }
+
+]
