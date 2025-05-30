@@ -79,8 +79,14 @@
 
         <div class="row justify-content-center">
           <div class="col-md-5">
-            <h5>WebProgrammingUNPAS</h5>
-            <img src ="img/profile1.png" width="100">
+            <div class="row">
+              <div class="col-md-4">
+                <img src ="img/profile1.png" width="100" class="rounded-circle img-thumbnail">
+              </div>
+              <div class="col-md-8">
+                <h5>WebProgrammingUNPAS</h5>
+              </div>
+            </div>
           </div>
           <div class="col-md-5"></div>
         </div>
