@@ -31,10 +31,8 @@ $profilepictureIG = $result2['profile_picture_url'];
 $followersIG = $result2['followers_count'];
 
 // Media IG
-$resultGambar1 = get_CURL ('https://graph.instagram.com/v22.0/17977136678717159?fields=media_url&access_token=IGAATVHZAF7d05BZAE04MF9WaW1mZAlZAhN3ExZAHN4SU9SR1U1MXJmaWhSMEpDS2ZA3bTVET1JlUHFTUmE1a3VRRVJmQ25BYnVKRDRkVEl3TnhQUFp4QzlrVUg4dEZAYdW9wcDUzbk1IZA3YxdVppeHJSMG54eW9yX2RKWEQ1TWtRWHJjYwZDZD');
 $resultGambar2 = get_CURL ('https://graph.instagram.com/v22.0/18108136411502437?fields=media_url&access_token=IGAATVHZAF7d05BZAE04MF9WaW1mZAlZAhN3ExZAHN4SU9SR1U1MXJmaWhSMEpDS2ZA3bTVET1JlUHFTUmE1a3VRRVJmQ25BYnVKRDRkVEl3TnhQUFp4QzlrVUg4dEZAYdW9wcDUzbk1IZA3YxdVppeHJSMG54eW9yX2RKWEQ1TWtRWHJjYwZDZD');
 $resultGambar3 = get_CURL ('https://graph.instagram.com/v22.0/18068958148824251?fields=media_url&access_token=IGAATVHZAF7d05BZAE04MF9WaW1mZAlZAhN3ExZAHN4SU9SR1U1MXJmaWhSMEpDS2ZA3bTVET1JlUHFTUmE1a3VRRVJmQ25BYnVKRDRkVEl3TnhQUFp4QzlrVUg4dEZAYdW9wcDUzbk1IZA3YxdVppeHJSMG54eW9yX2RKWEQ1TWtRWHJjYwZDZD');
-$gambar1 = $resultGambar1['media_url'];
 $gambar2 = $resultGambar2['media_url'];
 $gambar3 = $resultGambar3['media_url'];
 
@@ -153,9 +151,6 @@ $gambar3 = $resultGambar3['media_url'];
                        
                        <div class="row mt-3 pb-3">
                         <div class="col">
-                            <div class="ig-thumbnail">
-                                <img src="<?= $gambar1; ?>">
-                            </div>
                             <div class="ig-thumbnail">
                                 <img src="<?= $gambar2; ?>">
                             </div>
