@@ -71,9 +71,19 @@
 <!-- youtube & ig -->
     <section class="social bg-light" id="social">
       <div class = "container">
-        <row class="col text-center">
-          <h2>Social Media</h2>
-        </row>
+        <div class="row pt-4 mb-4">
+          <div class="col text-center">
+            <h2>Social Media</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <h5>WebProgrammingUNPAS</h5>
+            <img src ="img/profile1.png" width="100">
+          </div>
+          <div class="col-md-5"></div>
+        </div>
     </div>
   </section>
 
