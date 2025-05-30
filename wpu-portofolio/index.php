@@ -17,6 +17,12 @@ $youtubeProfilepic = $result['items'][0]['snippet']['thumbnails']
 ['medium']['url'];
 $channelName = $result['items'][0]['snippet']['title'];
 $subscribers = $result['items'][0]['statistics']['subscriberCount'];
+
+
+// latest video
+$urlLatestVideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyBudU7U_CDmLvqJ2JRiNL-k0N6p3ynT6OM&channelId=UCgWhSOwQSKHg9rNSGY57kVw&maxResults=1&order=date&part=snippet'; 
+$result = get_CURL($urlLatestVideo);
+
 ?>
 
 <!doctype html>
