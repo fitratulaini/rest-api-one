@@ -1,3 +1,24 @@
+<?php
+function get_CURL($url) 
+{
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+    $result = curl_exec($curl);
+    curl_close($curl);
+    
+    return json_decode($result, true);  
+}
+
+$result = get_CURL('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCgWhSOwQSKHg9rNSGY57kVw&key=AIzaSyBudU7U_CDmLvqJ2JRiNL-k0N6p3ynT6OM');
+
+
+$youtubeProfilepic = $result['items'][0]['snippet']['thumbnails']
+['medium']['url'];
+$channelName = $result['items'][0]['snippet']['title'];
+$subscribers = $result['items'][0]['statistics']['subscriberCount'];
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -81,14 +102,47 @@
           <div class="col-md-5">
             <div class="row">
               <div class="col-md-4">
-                <img src ="img/profile1.png" width="100" class="rounded-circle img-thumbnail">
+                <img src ="img/profile1.png" width="200" class="rounded-circle img-thumbnail">
               </div>
               <div class="col-md-8">
                 <h5>WebProgrammingUNPAS</h5>
+                <p>111111 Subscribers.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col mt-3 pb-3">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Tv0FqREy7A8?rel=0" allowfullscreen></iframe>
+                    </div>                
+                  </div>
               </div>
             </div>
           </div>
-          <div class="col-md-5"></div>
+          <div class="col-md-5">
+            <div class="row">
+              <div class="col-md-4">
+                <img src ="img/profile1.png" width="200" class="rounded-circle img-thumbnail">
+              </div>
+              <div class="co-md-8">
+                <h5>@aini</h5>
+                <p>1111111 followers</p>
+              </div>
+            </div>
+            <div class="mt-3 pb-3">
+              <div class="col">
+                <div class="ig-thumbnail">
+                  <img src="img/thumbs/1.png" alt="">
+                </div>
+                <div class="ig-thumbnail">
+                  <img src="img/thumbs/2.png" alt="">
+                </div>
+                <div class="ig-thumbnail">
+                  <img src="img/thumbs/3.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
   </section>
