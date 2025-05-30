@@ -22,6 +22,13 @@ $subscribers = $result['items'][0]['statistics']['subscriberCount'];
 // latest video
 $urlLatestVideo = 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyBudU7U_CDmLvqJ2JRiNL-k0N6p3ynT6OM&channelId=UCgWhSOwQSKHg9rNSGY57kVw&maxResults=1&order=date&part=snippet'; 
 $result = get_CURL($urlLatestVideo);
+$latestVideoId = $result['items'][0]['id']['videoId'];
+
+
+// Instagram API
+$clientID = "9589490684511176";
+$accessToken = "IGAATVHZAF7d05BZAE04MF9WaW1mZAlZAhN3ExZAHN4SU9SR1U1MXJmaWhSMEpDS2ZA3bTVET1JlUHFTUmE1a3VRRVJmQ25BYnVKRDRkVEl3TnhQUFp4QzlrVUg4dEZAYdW9wcDUzbk1IZA3YxdVppeHJSMG54eW9yX2RKWEQ1TWtRWHJjYwZDZD";
+
 
 ?>
 
