@@ -62,17 +62,22 @@ $gambar3 = $resultGambar3['media_url'];
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">portfolio</a>
-                        </li>
-                    </ul>
+                    <nav>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </nav>
@@ -81,7 +86,7 @@ $gambar3 = $resultGambar3['media_url'];
         <div class="jumbotron" id="home">
             <div class="container">
                 <div class="text-center">
-                    <img src="img/profile1.png" class="rounded-circle img-thumbnail">
+                    <img src="img/1.png" class="rounded-circle img-thumbnail">
                     <h1 class="display-4">Fitratul Aini</h1>
                     <h3 class="lead">student</h3>
                 </div>
@@ -99,10 +104,10 @@ $gambar3 = $resultGambar3['media_url'];
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-5">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, molestiae sunt doloribus error ullam expedita cumque blanditiiis quea vero, qui, consectetur modi possimus. consequuntur optio qd quae possimus, debitis earum.</p>
+                        <p>Saya saat ini sedang menempuh pendidikan di Universitas Islam Negeri (UIN) Imam Bonjol Padang, tepatnya di semester 6 pada Fakultas Sains dan Teknologi dengan program studi Sistem Informasi. Semester ini terasa cukup berat dan penuh tantangan—tugas yang datang silih berganti dengan deadline yang mepet, ditambah lagi rasa malas yang sering datang tanpa diundang. Kadang rasanya lelah secara fisik maupun mental, tapi semua itu jadi bagian dari proses belajar dan tumbuh sebagai mahasiswa.</p>
                     </div>
                     <div class="col-md-5">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, molestiae sunt doloribus error ullam expedita cumque blanditiiis quea vero, qui, consectetur modi possimus. consequuntur optio qd quae possimus, debitis earum.</p>
+                        <p>Saya berasal dari Agam, sebuah daerah yang terletak di Provinsi Sumatera Barat. Kehidupan di Agam yang penuh dengan nilai-nilai budaya dan kebersamaan telah membentuk saya menjadi pribadi yang kuat, sederhana, dan menghargai proses. Dari sanalah saya belajar arti kerja keras dan pentingnya menjaga semangat, yang terus saya bawa dalam menjalani kehidupan perkuliahan saat ini.</p>
                     </div>
                 </div>
             </div>
@@ -163,73 +168,100 @@ $gambar3 = $resultGambar3['media_url'];
             </div>
         </section>
 
-
-    <!----portfolio---->
+<!-- projek -->
         <section class="portfolio" id="portfolio">
             <div class="container">
                 <div class="row pt-4 mb-4">
                     <div class="col text-center">
-                        <h2>portfolio</h2>
+                        <h2>Project</h2>
                     </div>
                 </div>
                 <div class="row">
+                    <!-- Card 1 -->
                     <div class="col-md mb-4">
                         <div class="card">
-                            <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap">
+                            <img class="card-img-top" src="img/thumbs/projekct1.png" alt="Card image cap">
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text">
+                                    Proyek ini merupakan aplikasi pemesanan pizza sederhana yang dibuat dengan menggunakan teknologi JSON, JavaScript, PHP, dan HTML. Aplikasi ini memungkinkan pengguna untuk memilih jenis pizza.
+                                </p>
+                                <div class="form-group text-center">
+                                    <button type="submit" class="btn btn-dark">Project Pizza</button>
+                                </div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Card 2 -->
                     <div class="col-md mb-4">
                         <div class="card">
-                            <img class="card-img-top" src="img/thumbs/2.png" alt="card image cap">
+                            <img class="card-img-top" src="img/thumbs/project2.png" alt="Card image cap">
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text">
+                                    Proyek ini adalah aplikasi pencarian film sederhana yang terintegrasi dengan OMDb API menggunakan API key, memungkinkan pengguna mencari film dan melihat detail seperti judul dan,tahun rilis                                </p>
+                                <div class="form-group text-center">
+                                    <button type="submit" class="btn btn-dark">Project API Movie</button>
+                                </div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Card 3 -->
                     <div class="col-md mb-4">
                         <div class="card">
-                            <img class="card-img-top" src="img/thumbs/3.png" alt="card image cap">
+                            <img class="card-img-top" src="img/thumbs/project3.png" alt="Card image cap">
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md mb-4">
-                        <div class="card">
-                            <img class="card-img-top" src="img/thumbs/4.png" alt="card image cap">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md mb-4">
-                        <div class="card">
-                            <img class="card-img-top" src="img/thumbs/5.png" alt="card image cap">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md mb-4">
-                        <div class="card">
-                            <img class="card-img-top" src="img/thumbs/6.png" alt="card image cap">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text">
+                                    Proyek ini adalah aplikasi REST Client berbasis CodeIgniter yang menggunakan GuzzleHTTP (diinstal via Composer) untuk mengakses dan mengonsumsi data dari RESTful API.                                </p>
+                                <div class="form-group text-center">
+                                    <button type="submit" class="btn btn-dark">Project Rest Client</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+
+<!----portfolio---->
+
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="row pt-4 mb-4">
+                    <div class="col text-center">
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="img/thumbs/aini11.png" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Hidup ini seperti coding—kadang jalan mulus, kadang error tanpa pesan. Tapi dari situ saya belajar bahwa setiap kesalahan bisa diperbaiki, asal jangan lupa save dulu..</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="img/thumbs/aini1.png" alt="card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Proyek saya dikerjakan dengan penuh dedikasi, bukan karena tidak ada pilihan lain… tapi karena udah terlalu jauh buat menyerah.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="img/thumbs/aini4.png" alt="card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Skill utama: bisa serius di tengah kekacauan, tetap produktif di tengah quarter-life crisis, dan tetap senyum saat dosen bilang, “Coba revisi lagi, ya.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        
         </section>
                     
 
@@ -247,14 +279,14 @@ $gambar3 = $resultGambar3['media_url'];
                         <div class="card text-white bg-primary mb-4 text-center">
                             <div class="card-body">
                                 <h5 class="card-title">Contact Me</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p class="card-text">Kontak saya aja, jangan kontak masa lalu. Itu berat, kamu gak akan kuat.</p>
                             </div>
                         </div>
 
                         <ul class="list-group mb-4">
                             <li class="list-group-item"><h3>Location</h3></li>
-                            <li class="list-group-item">My Office</li>
-                            <li class="list-group-item">Jl. Kebun Balai Gadang</li>
+                            <li class="list-group-item">My Life</li>
+                            <li class="list-group-item">Jl. Bukan Kamu Tapi Dia</li>
                             <li class="list-group-item">Padang, ID</li>
                         </ul>
                     </div>
