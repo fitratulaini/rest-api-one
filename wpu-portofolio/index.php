@@ -71,7 +71,10 @@ $gambar3 = $resultGambar3['media_url'];
                                 <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#about">Project</a>
+                                <a class="nav-link" href="#projects">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sosial">Sosial Media</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -168,60 +171,47 @@ $gambar3 = $resultGambar3['media_url'];
             </div>
         </section>
 
-<!-- projek -->
-        <section class="portfolio" id="portfolio">
-            <div class="container">
-                <div class="row pt-4 mb-4">
-                    <div class="col text-center">
-                        <h2>Project</h2>
-                    </div>
+        <!-- Projects -->
+        <section class="projects bg-purple" id="projects">
+        <div class="container">
+            <div class="row pt-4 mb-4">
+            <div class="col text-center">
+                <h2>Projects</h2>
+            </div>
+            </div>
+
+            <div class="row justify-content-center">
+            <!-- Project WPU-Hut -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                <img src="img/thumbs/projekct1.png" class="card-img-top" alt="WPU-Hut">
+                <div class="card-body">
+                    <h5 class="card-title">Menu Hut</h5>
+                    <p class="card-text">Proyek ini merupakan aplikasi pemesanan pizza sederhana yang dibuat dengan menggunakan teknologi JSON, JavaScript, PHP, dan HTML. Aplikasi ini memungkinkan pengguna untuk memilih jenis pizza.</p>
+                    <a href="http://localhost/rest-api-one/wpu-hut/latihan2.html" class="btn btn-primary" target="_blank">Project PIzza</a>
                 </div>
-                <div class="row">
-                    <!-- Card 1 -->
-                    <div class="col-md mb-4">
-                        <div class="card">
-                            <img class="card-img-top" src="img/thumbs/projekct1.png" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Proyek ini merupakan aplikasi pemesanan pizza sederhana yang dibuat dengan menggunakan teknologi JSON, JavaScript, PHP, dan HTML. Aplikasi ini memungkinkan pengguna untuk memilih jenis pizza.
-                                </p>
-                                <div class="form-group text-center">
-                                    <button type="submit" class="btn btn-dark">Project Pizza</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 2 -->
-                    <div class="col-md mb-4">
-                        <div class="card">
-                            <img class="card-img-top" src="img/thumbs/project2.png" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Proyek ini adalah aplikasi pencarian film sederhana yang terintegrasi dengan OMDb API menggunakan API key, memungkinkan pengguna mencari film dan melihat detail seperti judul dan,tahun rilis                                </p>
-                                <div class="form-group text-center">
-                                    <button type="submit" class="btn btn-dark">Project API Movie</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Card 3 -->
-                    <div class="col-md mb-4">
-                        <div class="card">
-                            <img class="card-img-top" src="img/thumbs/project3.png" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    Proyek ini adalah aplikasi REST Client berbasis CodeIgniter yang menggunakan GuzzleHTTP (diinstal via Composer) untuk mengakses dan mengonsumsi data dari RESTful API.                                </p>
-                                <div class="form-group text-center">
-                                    <button type="submit" class="btn btn-dark">Project Rest Client</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </section>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                <img src="img/thumbs/project2.png" class="card-img-top" alt="WPU-movie">
+                <div class="card-body">
+                    <h5 class="card-title">search movie</h5>
+                    <p class="card-text">Proyek ini adalah aplikasi pencarian film sederhana yang terintegrasi dengan OMDb API menggunakan API key, memungkinkan pengguna mencari film dan melihat detail seperti judul dan,tahun rilis.</p>
+                    <a href="http://localhost/rest-api-one/wpu-movie/" class="btn btn-primary" target="_blank">Project Movie</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                <img src="img/thumbs/project3.png" class="card-img-top" alt="rest client">
+                <div class="card-body">
+                    <h5 class="card-title">rest client</h5>
+                    <p class="card-text">Proyek ini adalah aplikasi REST Client berbasis CodeIgniter yang menggunakan GuzzleHTTP (diinstal via Composer) untuk mengakses dan mengonsumsi data dari RESTful API.</p>
+                    <a href="http://localhost/rest-api-one/wpu-rest-clientt" class="btn btn-primary" target="_blank">Project Rest Client</a>
+                </div>
+                </div>
+            </div>
 
 <!----portfolio---->
 
@@ -261,7 +251,8 @@ $gambar3 = $resultGambar3['media_url'];
                     </div>
                 </div>
 
-        
+
+
         </section>
                     
 
@@ -321,22 +312,11 @@ $gambar3 = $resultGambar3['media_url'];
         </section>
 
 
-        <footer class="bg-dark text-white mt-5">
+        <footer class="bg-dark text-white text-center py-3 mt-5 w-100">
             <div class="container">
-                <div class="row">
-                    <div class="col text-center">
-                        <p>Copyright &copy; 2025.</p>
-                    </div>
-                </div>
+                <p class="mb-0">&copy; 2025 Fitratul Aini. All Rights Reserved.</p>
             </div>
         </footer>
-
-
-
-
-
-
-
 
         <!-- Optional JavaScript; choose one of the two! -->
         <!-- Option 1: Bootstrap Bundle with Popper -->
